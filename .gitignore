@@ -7,3 +7,5 @@ cookies.txt
 __pycache__/
 *.pyc
 .DS_Store
+# wrangler cache
+.wrangler/

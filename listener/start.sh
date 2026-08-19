@@ -9,7 +9,7 @@
 
 # ===== EDIT THESE =====
 export WORKER_URL="https://yt-resume-worker.mosleminezhad8800.workers.dev"
-export WORKER_SECRET="a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+export WORKER_SECRET="c57a404da4365b2abd120ca2f6b62a1c"
 export DOWNLOAD_DIR="/sdcard/downloads"                          # where videos are saved
 export COOKIES_FILE=""                                           # optional: /sdcard/downloads/cookies.txt (exported FROM this phone)
 # ======================
