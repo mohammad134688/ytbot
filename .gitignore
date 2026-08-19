@@ -1,0 +1,9 @@
+# Secrets / local data
+*.log
+listener.log
+yt_dlp_last.log
+.env
+cookies.txt
+__pycache__/
+*.pyc
+.DS_Store

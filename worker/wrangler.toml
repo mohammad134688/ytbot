@@ -1,0 +1,14 @@
+name = "yt-resume-worker"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# Bind a KV namespace for the job queue + per-chat sessions.
+# Create one:  wrangler kv namespace create STATE
+# then paste the id below.
+[[kv_namespaces]]
+binding = "STATE"
+id = "358fc19433704f83b261198b9ebc1e4c"
+
+[vars]
+# Random shared secret for listener->worker auth. (Telegram token set via secret)
+WORKER_SECRET = "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
